@@ -181,25 +181,25 @@
 </template>
 <script type="text/javascript">
 
-var fireballSize = 22;
+const fireballSize = 22;
 
-var getFireballSpeed = function (isMovingLeft) {
+const getFireballSpeed = function (isMovingLeft) {
   return isMovingLeft ? 2 : 5;
 }
 
-var wizardSpeed = 3;
+const wizardSpeed = 3;
 
-var wizardWidth = 70;
+const wizardWidth = 70;
 
-var getWizardHeight = function () {
+const getWizardHeight = function () {
   return 1.337 * wizardWidth;
 }
 
-var getWizardX = function (fieldWidth) {
+const getWizardX = function (fieldWidth) {
   return (fieldWidth - wizardWidth) / 2;
 }
 
-var getWizardY = function (fieldHeight) {
+const getWizardY = function (fieldHeight) {
   return fieldHeight / 3;
 }
 
